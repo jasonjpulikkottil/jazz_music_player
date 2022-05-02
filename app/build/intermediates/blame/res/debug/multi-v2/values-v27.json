@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Applications\\Android\\Music\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\Applications\\Android\\Music\\app\\src\\main\\res\\values-v27\\styles_parents.xml",
+                    "from": {
+                        "startLines": "19,-1,-1",
+                        "startColumns": "4,-1,-1",
+                        "startOffsets": "1069,-1,-1",
+                        "endLines": "37,-1,-1",
+                        "endColumns": "12,-1,-1",
+                        "endOffsets": "2358,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,21,35",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,1349,2360",
+                        "endLines": "20,34,49",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1344,2355,3404"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,318 @@
+com/jdots/music/glide/ProfileBannerGlideRequest.java
+ com.jdots.music.glide.ProfileBannerGlideRequest
+ com.jdots.music.glide.ProfileBannerGlideRequest$BitmapBuilder
+ com.jdots.music.glide.ProfileBannerGlideRequest$Builder
+com/jdots/music/lyrics/LrcEntry.java
+ com.jdots.music.lyrics.LrcEntry
+com/jdots/music/util/color/NotificationColorUtil.java
+ com.jdots.music.util.color.NotificationColorUtil
+ com.jdots.music.util.color.NotificationColorUtil$ColorUtilsFromCompat
+com/jdots/music/views/CircularImageView.java
+ com.jdots.music.views.CircularImageView
+com/jdots/music/glide/audiocover/AudioFileCoverLoader.java
+ com.jdots.music.glide.audiocover.AudioFileCoverLoader
+ com.jdots.music.glide.audiocover.AudioFileCoverLoader$Factory
+com/jdots/music/activities/bugreport/model/DeviceInfo.java
+ com.jdots.music.activities.bugreport.model.DeviceInfo
+com/jdots/music/dialogs/BlacklistFolderChooserDialog.java
+ com.jdots.music.dialogs.BlacklistFolderChooserDialog
+ com.jdots.music.dialogs.BlacklistFolderChooserDialog$1
+ com.jdots.music.dialogs.BlacklistFolderChooserDialog$FolderCallback
+ com.jdots.music.dialogs.BlacklistFolderChooserDialog$FolderSorter
+com/jdots/music/util/ArtistSignatureUtil.java
+ com.jdots.music.util.ArtistSignatureUtil
+com/jdots/music/lyrics/LrcView.java
+ com.jdots.music.lyrics.LrcView
+ com.jdots.music.lyrics.LrcView$1
+ com.jdots.music.lyrics.LrcView$2
+ com.jdots.music.lyrics.LrcView$3
+ com.jdots.music.lyrics.LrcView$4
+ com.jdots.music.lyrics.LrcView$5
+ com.jdots.music.lyrics.LrcView$OnPlayClickListener
+com/jdots/music/lyrics/LrcHelper.java
+ com.jdots.music.lyrics.LrcHelper
+ com.jdots.music.lyrics.LrcHelper$1
+com/jdots/music/util/RetroColorUtil.java
+ com.jdots.music.util.RetroColorUtil
+ com.jdots.music.util.RetroColorUtil$SwatchComparator
+com/jdots/music/service/PlaybackHandler.java
+ com.jdots.music.service.PlaybackHandler
+com/jdots/music/util/SAFUtil.java
+ com.jdots.music.util.SAFUtil
+com/jdots/music/adapter/base/AbsMultiSelectAdapter.java
+ com.jdots.music.adapter.base.AbsMultiSelectAdapter
+com/jdots/music/misc/LagTracker.java
+ com.jdots.music.misc.LagTracker
+com/jdots/music/activities/bugreport/model/github/ExtraInfo.java
+ com.jdots.music.activities.bugreport.model.github.ExtraInfo
+com/jdots/music/service/MusicService.java
+ com.jdots.music.service.MusicService
+ com.jdots.music.service.MusicService$1
+ com.jdots.music.service.MusicService$2
+ com.jdots.music.service.MusicService$3
+ com.jdots.music.service.MusicService$4
+ com.jdots.music.service.MusicService$5
+ com.jdots.music.service.MusicService$6
+ com.jdots.music.service.MusicService$7
+ com.jdots.music.service.MusicService$8
+ com.jdots.music.service.MusicService$9
+ com.jdots.music.service.MusicService$9$1
+ com.jdots.music.service.MusicService$MusicBinder
+com/jdots/music/util/Compressor.java
+ com.jdots.music.util.Compressor
+com/jdots/music/helper/StackBlur.java
+ com.jdots.music.helper.StackBlur
+ com.jdots.music.helper.StackBlur$BlurTask
+com/jdots/music/util/RippleUtils.java
+ com.jdots.music.util.RippleUtils
+com/jdots/music/glide/AlbumGlideRequest.java
+ com.jdots.music.glide.AlbumGlideRequest
+ com.jdots.music.glide.AlbumGlideRequest$BitmapBuilder
+ com.jdots.music.glide.AlbumGlideRequest$Builder
+ com.jdots.music.glide.AlbumGlideRequest$PaletteBuilder
+com/jdots/music/util/ImageUtil.java
+ com.jdots.music.util.ImageUtil
+com/jdots/music/RetroBottomSheetBehavior.java
+ com.jdots.music.RetroBottomSheetBehavior
+com/jdots/music/activities/bugreport/model/Report.java
+ com.jdots.music.activities.bugreport.model.Report
+com/jdots/music/glide/ArtistGlideRequest.java
+ com.jdots.music.glide.ArtistGlideRequest
+ com.jdots.music.glide.ArtistGlideRequest$BitmapBuilder
+ com.jdots.music.glide.ArtistGlideRequest$Builder
+ com.jdots.music.glide.ArtistGlideRequest$PaletteBuilder
+com/jdots/music/providers/SongPlayCountStore.java
+ com.jdots.music.providers.SongPlayCountStore
+ com.jdots.music.providers.SongPlayCountStore$SongPlayCountColumns
+com/jdots/music/util/color/MediaNotificationProcessor.java
+ com.jdots.music.util.color.MediaNotificationProcessor
+ com.jdots.music.util.color.MediaNotificationProcessor$1
+ com.jdots.music.util.color.MediaNotificationProcessor$2
+ com.jdots.music.util.color.MediaNotificationProcessor$2$1
+ com.jdots.music.util.color.MediaNotificationProcessor$3
+ com.jdots.music.util.color.MediaNotificationProcessor$OnPaletteLoadedListener
+com/jdots/music/repository/SortedLongCursor.java
+ com.jdots.music.repository.SortedLongCursor
+com/jdots/music/lyrics/LrcUtils.java
+ com.jdots.music.lyrics.LrcUtils
+com/jdots/music/views/PopupBackground.java
+ com.jdots.music.views.PopupBackground
+com/jdots/music/util/ColorUtil.java
+ com.jdots.music.util.ColorUtil
+ com.jdots.music.util.ColorUtil$SwatchComparator
+com/jdots/music/db/PlayCountDao_Impl.java
+ com.jdots.music.db.PlayCountDao_Impl
+ com.jdots.music.db.PlayCountDao_Impl$1
+ com.jdots.music.db.PlayCountDao_Impl$2
+ com.jdots.music.db.PlayCountDao_Impl$3
+ com.jdots.music.db.PlayCountDao_Impl$4
+ com.jdots.music.db.PlayCountDao_Impl$5
+com/jdots/music/glide/SongGlideRequest.java
+ com.jdots.music.glide.SongGlideRequest
+ com.jdots.music.glide.SongGlideRequest$BitmapBuilder
+ com.jdots.music.glide.SongGlideRequest$Builder
+ com.jdots.music.glide.SongGlideRequest$PaletteBuilder
+com/jdots/music/activities/LicenseActivity.java
+ com.jdots.music.activities.LicenseActivity
+com/jdots/music/activities/WhatsNewActivity.java
+ com.jdots.music.activities.WhatsNewActivity
+com/jdots/music/views/VerticalTextView.java
+ com.jdots.music.views.VerticalTextView
+com/jdots/music/util/AutoGeneratedPlaylistBitmap.java
+ com.jdots.music.util.AutoGeneratedPlaylistBitmap
+com/jdots/music/model/lyrics/Lyrics.java
+ com.jdots.music.model.lyrics.Lyrics
+com/jdots/music/activities/bugreport/model/github/GithubLogin.java
+ com.jdots.music.activities.bugreport.model.github.GithubLogin
+com/jdots/music/util/TempUtils.java
+ com.jdots.music.util.TempUtils
+com/jdots/music/BuildConfig.java
+ com.jdots.music.BuildConfig
+com/jdots/music/misc/DialogAsyncTask.java
+ com.jdots.music.misc.DialogAsyncTask
+com/jdots/music/fragments/folder/FoldersFragment.java
+ com.jdots.music.fragments.folder.FoldersFragment
+ com.jdots.music.fragments.folder.FoldersFragment$1
+ com.jdots.music.fragments.folder.FoldersFragment$AsyncFileLoader
+ com.jdots.music.fragments.folder.FoldersFragment$ListPathsAsyncTask
+ com.jdots.music.fragments.folder.FoldersFragment$ListPathsAsyncTask$LoadingInfo
+ com.jdots.music.fragments.folder.FoldersFragment$ListPathsAsyncTask$OnPathsListedCallback
+ com.jdots.music.fragments.folder.FoldersFragment$ListSongsAsyncTask
+ com.jdots.music.fragments.folder.FoldersFragment$ListSongsAsyncTask$LoadingInfo
+ com.jdots.music.fragments.folder.FoldersFragment$ListSongsAsyncTask$OnSongsListedCallback
+ com.jdots.music.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask
+com/jdots/music/adapter/CategoryInfoAdapter.java
+ com.jdots.music.adapter.CategoryInfoAdapter
+ com.jdots.music.adapter.CategoryInfoAdapter$ViewHolder
+com/jdots/music/adapter/base/MediaEntryViewHolder.java
+ com.jdots.music.adapter.base.MediaEntryViewHolder
+com/jdots/music/util/LyricUtil.java
+ com.jdots.music.util.LyricUtil
+com/jdots/music/views/DrawableGradient.java
+ com.jdots.music.views.DrawableGradient
+com/jdots/music/glide/UserProfileGlideRequest.java
+ com.jdots.music.glide.UserProfileGlideRequest
+ com.jdots.music.glide.UserProfileGlideRequest$BitmapBuilder
+ com.jdots.music.glide.UserProfileGlideRequest$Builder
+com/jdots/music/providers/MusicPlaybackQueueStore.java
+ com.jdots.music.providers.MusicPlaybackQueueStore
+com/jdots/music/util/color/ImageUtils.java
+ com.jdots.music.util.color.ImageUtils
+com/jdots/music/model/lyrics/AbsSynchronizedLyrics.java
+ com.jdots.music.model.lyrics.AbsSynchronizedLyrics
+com/jdots/music/util/PlaylistsUtil.java
+ com.jdots.music.util.PlaylistsUtil
+com/jdots/music/db/LyricsDao_Impl.java
+ com.jdots.music.db.LyricsDao_Impl
+ com.jdots.music.db.LyricsDao_Impl$1
+ com.jdots.music.db.LyricsDao_Impl$2
+ com.jdots.music.db.LyricsDao_Impl$3
+com/jdots/music/views/StatusBarView.java
+ com.jdots.music.views.StatusBarView
+com/jdots/music/service/MultiPlayer.java
+ com.jdots.music.service.MultiPlayer
+com/jdots/music/util/NavigationUtil.java
+ com.jdots.music.util.NavigationUtil
+com/jdots/music/views/NetworkImageView.java
+ com.jdots.music.views.NetworkImageView
+com/jdots/music/misc/GenericFileProvider.java
+ com.jdots.music.misc.GenericFileProvider
+com/jdots/music/activities/saf/SAFGuideActivity.java
+ com.jdots.music.activities.saf.SAFGuideActivity
+com/jdots/music/glide/palette/BitmapPaletteWrapper.java
+ com.jdots.music.glide.palette.BitmapPaletteWrapper
+com/jdots/music/glide/audiocover/AudioFileCover.java
+ com.jdots.music.glide.audiocover.AudioFileCover
+com/jdots/music/util/FileUtil.java
+ com.jdots.music.util.FileUtil
+com/jdots/music/glide/audiocover/AudioFileCoverFetcher.java
+ com.jdots.music.glide.audiocover.AudioFileCoverFetcher
+com/jdots/music/views/BreadCrumbLayout.java
+ com.jdots.music.views.BreadCrumbLayout
+ com.jdots.music.views.BreadCrumbLayout$Crumb
+ com.jdots.music.views.BreadCrumbLayout$Crumb$1
+ com.jdots.music.views.BreadCrumbLayout$SavedStateWrapper
+ com.jdots.music.views.BreadCrumbLayout$SavedStateWrapper$1
+ com.jdots.music.views.BreadCrumbLayout$SelectionCallback
+com/jdots/music/activities/tageditor/WriteTagsAsyncTask.java
+ com.jdots.music.activities.tageditor.WriteTagsAsyncTask
+com/jdots/music/network/model/LastFmArtist.java
+ com.jdots.music.network.model.LastFmArtist
+ com.jdots.music.network.model.LastFmArtist$Artist
+ com.jdots.music.network.model.LastFmArtist$Artist$Bio
+ com.jdots.music.network.model.LastFmArtist$Artist$Image
+ com.jdots.music.network.model.LastFmArtist$Artist$Stats
+com/jdots/music/util/CalendarUtil.java
+ com.jdots.music.util.CalendarUtil
+com/jdots/music/views/HeightFitSquareLayout.java
+ com.jdots.music.views.HeightFitSquareLayout
+com/jdots/music/views/StatusBarMarginFrameLayout.java
+ com.jdots.music.views.StatusBarMarginFrameLayout
+com/jdots/music/db/HistoryDao_Impl.java
+ com.jdots.music.db.HistoryDao_Impl
+ com.jdots.music.db.HistoryDao_Impl$1
+ com.jdots.music.db.HistoryDao_Impl$2
+ com.jdots.music.db.HistoryDao_Impl$3
+ com.jdots.music.db.HistoryDao_Impl$4
+ com.jdots.music.db.HistoryDao_Impl$5
+ com.jdots.music.db.HistoryDao_Impl$6
+com/jdots/music/network/model/LastFmTrack.java
+ com.jdots.music.network.model.LastFmTrack
+ com.jdots.music.network.model.LastFmTrack$Track
+ com.jdots.music.network.model.LastFmTrack$Track$Album
+ com.jdots.music.network.model.LastFmTrack$Track$Album$Attr
+ com.jdots.music.network.model.LastFmTrack$Track$Album$Image
+ com.jdots.music.network.model.LastFmTrack$Track$Artist
+ com.jdots.music.network.model.LastFmTrack$Track$Toptags
+ com.jdots.music.network.model.LastFmTrack$Track$Toptags$Tag
+ com.jdots.music.network.model.LastFmTrack$Track$Wiki
+com/jdots/music/views/ScrollingViewOnApplyWindowInsetsListener.java
+ com.jdots.music.views.ScrollingViewOnApplyWindowInsetsListener
+com/jdots/music/util/SwipeAndDragHelper.java
+ com.jdots.music.util.SwipeAndDragHelper
+ com.jdots.music.util.SwipeAndDragHelper$ActionCompletionContract
+com/jdots/music/glide/palette/BitmapPaletteResource.java
+ com.jdots.music.glide.palette.BitmapPaletteResource
+com/jdots/music/glide/palette/BitmapPaletteTarget.java
+ com.jdots.music.glide.palette.BitmapPaletteTarget
+com/jdots/music/db/BlackListStoreDao_Impl.java
+ com.jdots.music.db.BlackListStoreDao_Impl
+ com.jdots.music.db.BlackListStoreDao_Impl$1
+ com.jdots.music.db.BlackListStoreDao_Impl$2
+ com.jdots.music.db.BlackListStoreDao_Impl$3
+ com.jdots.music.db.BlackListStoreDao_Impl$4
+ com.jdots.music.db.BlackListStoreDao_Impl$5
+ com.jdots.music.db.BlackListStoreDao_Impl$6
+com/jdots/music/repository/SortedCursor.java
+ com.jdots.music.repository.SortedCursor
+com/jdots/music/views/BaselineGridTextView.java
+ com.jdots.music.views.BaselineGridTextView
+com/jdots/music/providers/HistoryStore.java
+ com.jdots.music.providers.HistoryStore
+ com.jdots.music.providers.HistoryStore$RecentStoreColumns
+com/jdots/music/misc/CustomFragmentStatePagerAdapter.java
+ com.jdots.music.misc.CustomFragmentStatePagerAdapter
+com/jdots/music/lyrics/Lrc.java
+ com.jdots.music.lyrics.Lrc
+com/jdots/music/util/BitmapEditor.java
+ com.jdots.music.util.BitmapEditor
+com/jdots/music/glide/audiocover/AudioFileCoverUtils.java
+ com.jdots.music.glide.audiocover.AudioFileCoverUtils
+com/jdots/music/db/PlaylistDao_Impl.java
+ com.jdots.music.db.PlaylistDao_Impl
+ com.jdots.music.db.PlaylistDao_Impl$1
+ com.jdots.music.db.PlaylistDao_Impl$10
+ com.jdots.music.db.PlaylistDao_Impl$11
+ com.jdots.music.db.PlaylistDao_Impl$12
+ com.jdots.music.db.PlaylistDao_Impl$13
+ com.jdots.music.db.PlaylistDao_Impl$14
+ com.jdots.music.db.PlaylistDao_Impl$15
+ com.jdots.music.db.PlaylistDao_Impl$16
+ com.jdots.music.db.PlaylistDao_Impl$17
+ com.jdots.music.db.PlaylistDao_Impl$18
+ com.jdots.music.db.PlaylistDao_Impl$19
+ com.jdots.music.db.PlaylistDao_Impl$2
+ com.jdots.music.db.PlaylistDao_Impl$20
+ com.jdots.music.db.PlaylistDao_Impl$3
+ com.jdots.music.db.PlaylistDao_Impl$4
+ com.jdots.music.db.PlaylistDao_Impl$5
+ com.jdots.music.db.PlaylistDao_Impl$6
+ com.jdots.music.db.PlaylistDao_Impl$7
+ com.jdots.music.db.PlaylistDao_Impl$8
+ com.jdots.music.db.PlaylistDao_Impl$9
+com/jdots/music/util/RetroUtil.java
+ com.jdots.music.util.RetroUtil
+com/jdots/music/views/LollipopFixedWebView.java
+ com.jdots.music.views.LollipopFixedWebView
+com/jdots/music/providers/BlacklistStore.java
+ com.jdots.music.providers.BlacklistStore
+ com.jdots.music.providers.BlacklistStore$BlacklistStoreColumns
+com/jdots/music/db/RetroDatabase_Impl.java
+ com.jdots.music.db.RetroDatabase_Impl
+ com.jdots.music.db.RetroDatabase_Impl$1
+com/jdots/music/activities/bugreport/model/github/GithubTarget.java
+ com.jdots.music.activities.bugreport.model.github.GithubTarget
+com/jdots/music/LanguageContextWrapper.java
+ com.jdots.music.LanguageContextWrapper
+com/jdots/music/network/model/LastFmAlbum.java
+ com.jdots.music.network.model.LastFmAlbum
+ com.jdots.music.network.model.LastFmAlbum$Album
+ com.jdots.music.network.model.LastFmAlbum$Album$Image
+ com.jdots.music.network.model.LastFmAlbum$Album$Tag
+ com.jdots.music.network.model.LastFmAlbum$Album$Tags
+ com.jdots.music.network.model.LastFmAlbum$Album$Wiki
+com/jdots/music/helper/M3UConstants.java
+ com.jdots.music.helper.M3UConstants
+com/jdots/music/misc/UpdateToastMediaScannerCompletionListener.java
+ com.jdots.music.misc.UpdateToastMediaScannerCompletionListener
+com/jdots/music/volume/AudioVolumeContentObserver.java
+ com.jdots.music.volume.AudioVolumeContentObserver
+com/jdots/music/views/ContributorsView.java
+ com.jdots.music.views.ContributorsView
+com/jdots/music/glide/palette/BitmapPaletteTranscoder.java
+ com.jdots.music.glide.palette.BitmapPaletteTranscoder
+com/jdots/music/model/lyrics/SynchronizedLyricsLRC.java
+ com.jdots.music.model.lyrics.SynchronizedLyricsLRC
+com/jdots/music/views/SeekArc.java
+ com.jdots.music.views.SeekArc
+ com.jdots.music.views.SeekArc$OnSeekArcChangeListener

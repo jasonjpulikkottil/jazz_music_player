@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Applications\\Android\\Music\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v27\\values-night-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\Applications\\Android\\Music\\app\\src\\main\\res\\values-night-v27\\styles.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "663",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1800"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "1192"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,564 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jdots.music.debug"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0 DEBUG" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:7:5-68
+12-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+13-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:8:5-75
+13-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:9:5-68
+14-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:9:22-65
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:11:5-81
+16-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:12:5-67
+17-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+19-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:14:5-75
+19-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:15:5-77
+20-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:15:22-74
+21    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+21-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:16:5-18:47
+21-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:17:9-57
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:19:5-81
+22-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:19:22-78
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\5e4debe59c501f5bdbfdfa8add94d70f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+23-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\5e4debe59c501f5bdbfdfa8add94d70f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
+24
+25    <application
+25-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:21:5-255:19
+26        android:name="com.jdots.music.App"
+26-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:22:9-43
+27        android:allowBackup="true"
+27-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:23:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a6657c18ea06656f4d9e7210ddf6e954\core-1.3.1\AndroidManifest.xml:24:18-86
+29        android:configChanges="locale|layoutDirection"
+29-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:24:9-55
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:25:9-43
+32        android:label="@string/app_name"
+32-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:26:9-41
+33        android:requestLegacyExternalStorage="true"
+33-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:27:9-52
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:28:9-54
+35        android:supportsRtl="true"
+35-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:29:9-35
+36        android:theme="@style/Theme.RetroMusic.FollowSystem"
+36-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:30:9-61
+37        android:usesCleartextTraffic="false" >
+37-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:31:9-45
+38        <activity
+38-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:34:9-109:20
+39            android:name="com.jdots.music.activities.MainActivity"
+39-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:35:13-67
+40            android:exported="true"
+40-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:38:13-36
+41            android:label="@string/app_name"
+41-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:36:13-45
+42            android:theme="@style/SplashTheme" >
+42-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:37:13-47
+43            <intent-filter>
+43-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:40:13-47:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:41:17-69
+44-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:41:25-66
+45                <action android:name="android.intent.action.MUSIC_PLAYER" />
+45-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:42:17-77
+45-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:42:25-74
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:44:17-77
+47-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:44:27-74
+48                <category android:name="android.intent.category.APP_MUSIC" />
+48-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:45:17-78
+48-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:45:27-75
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+49-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+50            </intent-filter>
+51            <intent-filter>
+51-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:48:13-52:29
+52                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+52-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:49:17-86
+52-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:49:25-83
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+54-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+55            </intent-filter>
+56            <intent-filter>
+56-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:53:13-63:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:17-69
+57-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+59-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+60
+61                <data android:scheme="content" />
+61-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+61-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:23-47
+62                <data android:mimeType="audio/*" />
+62-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+62-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+63                <data android:mimeType="application/ogg" />
+63-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+63-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+64                <data android:mimeType="application/x-ogg" />
+64-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+64-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+65                <data android:mimeType="application/itunes" />
+65-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+65-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+66            </intent-filter>
+67            <intent-filter>
+67-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:64:13-74:29
+68                <action android:name="android.intent.action.VIEW" />
+68-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:17-69
+68-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+70-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+71
+72                <data android:scheme="file" />
+72-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+72-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:23-47
+73                <data android:mimeType="audio/*" />
+73-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+73-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+74                <data android:mimeType="application/ogg" />
+74-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+74-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+75                <data android:mimeType="application/x-ogg" />
+75-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+75-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+76                <data android:mimeType="application/itunes" />
+76-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+76-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+77            </intent-filter>
+78            <intent-filter>
+78-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:75:13-86:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:17-69
+79-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+81-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:79:17-78
+82-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:79:27-75
+83
+84                <data android:scheme="http" />
+84-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+84-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:23-47
+85                <data android:mimeType="audio/*" />
+85-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+85-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+86                <data android:mimeType="application/ogg" />
+86-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+86-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+87                <data android:mimeType="application/x-ogg" />
+87-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+87-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+88                <data android:mimeType="application/itunes" />
+88-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+88-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+89            </intent-filter>
+90            <intent-filter>
+90-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:87:13-95:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:17-69
+91-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:54:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+93-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+94
+95                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+95-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+95-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+96                <data android:mimeType="vnd.android.cursor.dir/albums" />
+96-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+96-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+97                <data android:mimeType="vnd.android.cursor.dir/artists" />
+97-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+97-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+98            </intent-filter>
+99            <intent-filter>
+99-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:96:13-100:29
+100                <action android:name="com.cyanogenmod.eleven.AUDIO_PLAYER" />
+100-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:97:17-78
+100-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:97:25-75
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+102-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+103            </intent-filter>
+104            <intent-filter>
+104-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:101:13-108:29
+105                <action android:name="android.intent.action.PICK" />
+105-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:102:17-69
+105-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:102:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:17-76
+107-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:46:27-73
+108                <category android:name="android.intent.category.OPENABLE" />
+108-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:105:17-77
+108-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:105:27-74
+109
+110                <data android:mimeType="vnd.android.cursor.dir/audio" />
+110-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:58:17-50
+110-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:59:23-49
+111            </intent-filter>
+112        </activity>
+113        <activity android:name="com.jdots.music.activities.PlayingQueueActivity" />
+113-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:110:9-84
+113-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:110:19-81
+114        <activity android:name="com.jdots.music.activities.SettingsActivity" />
+114-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:111:9-80
+114-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:111:19-77
+115        <activity android:name="com.jdots.music.activities.tageditor.AlbumTagEditorActivity" />
+115-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:112:9-96
+115-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:112:19-93
+116        <activity android:name="com.jdots.music.activities.tageditor.SongTagEditorActivity" />
+116-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:113:9-95
+116-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:113:19-92
+117        <activity android:name="com.jdots.music.activities.LyricsActivity" />
+117-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:114:9-78
+117-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:114:19-75
+118        <activity android:name="com.jdots.music.activities.UserInfoActivity" />
+118-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:115:9-80
+118-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:115:19-77
+119        <activity android:name="com.jdots.music.activities.LicenseActivity" />
+119-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:116:9-79
+119-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:116:19-76
+120        <activity android:name="com.jdots.music.activities.WhatsNewActivity" />
+120-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:117:9-80
+120-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:117:19-77
+121        <activity android:name="com.jdots.music.activities.bugreport.BugReportActivity" />
+121-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:118:9-91
+121-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:118:19-88
+122        <activity android:name="com.jdots.music.activities.ShareInstagramStory" />
+122-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:119:9-83
+122-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:119:19-80
+123        <activity android:name="com.jdots.music.activities.DriveModeActivity" />
+123-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:120:9-81
+123-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:120:19-78
+124        <activity android:name="com.jdots.music.activities.PermissionActivity" />
+124-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:121:9-82
+124-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:121:19-79
+125        <activity android:name="com.jdots.music.activities.LockScreenActivity" />
+125-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:122:9-82
+125-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:122:19-79
+126        <activity
+126-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:124:9-127:75
+127            android:name="com.jdots.music.appshortcuts.AppShortcutLauncherActivity"
+127-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:125:13-84
+128            android:launchMode="singleInstance"
+128-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:126:13-48
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:127:13-72
+130        <activity
+130-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:129:9-131:50
+131            android:name="com.jdots.music.activities.saf.SAFGuideActivity"
+131-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:130:13-75
+132            android:theme="@style/Theme.Intro" />
+132-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:131:13-47
+133
+134        <provider
+135            android:name="com.jdots.music.misc.GenericFileProvider"
+135-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:134:13-68
+136            android:authorities="com.jdots.music.debug.provider"
+136-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:135:13-60
+137            android:exported="false"
+137-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:136:13-37
+138            android:grantUriPermissions="true" >
+138-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:137:13-47
+139            <meta-data
+139-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:138:13-140:58
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:139:17-67
+141                android:resource="@xml/provider_paths" />
+141-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:140:17-55
+142        </provider>
+143        <provider
+144            android:name="androidx.core.content.FileProvider"
+144-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:145:13-62
+145            android:authorities="com.jdots.music.debug"
+145-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:146:13-51
+146            android:exported="false"
+146-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:147:13-37
+147            android:grantUriPermissions="true" >
+147-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:148:13-47
+148            <meta-data
+148-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:138:13-140:58
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:139:17-67
+150                android:resource="@xml/provider_paths" />
+150-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:140:17-55
+151        </provider>
+152
+153        <receiver android:name="com.jdots.music.service.MediaButtonIntentReceiver" >
+153-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:154:9-158:20
+153-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:154:19-83
+154            <intent-filter>
+154-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:155:13-157:29
+155                <action android:name="android.intent.action.MEDIA_BUTTON" />
+155-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:156:17-77
+155-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:156:25-74
+156            </intent-filter>
+157        </receiver>
+158        <receiver android:name="com.jdots.music.appwidgets.BootReceiver" >
+158-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:160:9-165:20
+158-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:160:19-73
+159            <intent-filter>
+159-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:161:13-164:29
+160                <action android:name="android.intent.action.BOOT_COMPLETED" />
+160-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:162:17-79
+160-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:162:25-76
+161                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+161-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:163:17-82
+161-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:163:25-79
+162            </intent-filter>
+163        </receiver>
+164        <receiver
+164-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:167:9-178:20
+165            android:name="com.jdots.music.appwidgets.AppWidgetBig"
+165-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:168:13-67
+166            android:exported="false"
+166-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:169:13-37
+167            android:label="@string/app_widget_big_name" >
+167-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:170:13-56
+168            <intent-filter>
+168-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:171:13-173:29
+169                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+169-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:17-84
+169-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:25-81
+170            </intent-filter>
+171
+172            <meta-data
+172-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:175:13-177:63
+173                android:name="android.appwidget.provider"
+173-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:176:17-58
+174                android:resource="@xml/app_widget_big_info" />
+174-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:177:17-60
+175        </receiver>
+176        <receiver
+176-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:180:9-191:20
+177            android:name="com.jdots.music.appwidgets.AppWidgetClassic"
+177-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:181:13-71
+178            android:exported="false"
+178-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:182:13-37
+179            android:label="@string/app_widget_classic_name" >
+179-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:183:13-60
+180            <intent-filter>
+180-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:171:13-173:29
+181                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+181-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:17-84
+181-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:25-81
+182            </intent-filter>
+183
+184            <meta-data
+184-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:175:13-177:63
+185                android:name="android.appwidget.provider"
+185-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:176:17-58
+186                android:resource="@xml/app_widget_classic_info" />
+186-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:177:17-60
+187        </receiver>
+188        <receiver
+188-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:192:9-203:20
+189            android:name="com.jdots.music.appwidgets.AppWidgetSmall"
+189-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:193:13-69
+190            android:exported="false"
+190-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:194:13-37
+191            android:label="@string/app_widget_small_name" >
+191-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:195:13-58
+192            <intent-filter>
+192-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:171:13-173:29
+193                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+193-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:17-84
+193-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:25-81
+194            </intent-filter>
+195
+196            <meta-data
+196-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:175:13-177:63
+197                android:name="android.appwidget.provider"
+197-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:176:17-58
+198                android:resource="@xml/app_widget_small_info" />
+198-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:177:17-60
+199        </receiver>
+200        <receiver
+200-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:204:9-215:20
+201            android:name="com.jdots.music.appwidgets.AppWidgetText"
+201-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:205:13-68
+202            android:exported="false"
+202-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:206:13-37
+203            android:label="@string/app_widget_text_name" >
+203-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:207:13-57
+204            <intent-filter>
+204-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:171:13-173:29
+205                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+205-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:17-84
+205-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:25-81
+206            </intent-filter>
+207
+208            <meta-data
+208-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:175:13-177:63
+209                android:name="android.appwidget.provider"
+209-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:176:17-58
+210                android:resource="@xml/app_widget_text" />
+210-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:177:17-60
+211        </receiver>
+212        <receiver
+212-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:216:9-227:20
+213            android:name="com.jdots.music.appwidgets.AppWidgetCard"
+213-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:217:13-68
+214            android:exported="false"
+214-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:218:13-37
+215            android:label="@string/app_widget_card_name" >
+215-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:219:13-57
+216            <intent-filter>
+216-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:171:13-173:29
+217                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+217-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:17-84
+217-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:172:25-81
+218            </intent-filter>
+219
+220            <meta-data
+220-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:175:13-177:63
+221                android:name="android.appwidget.provider"
+221-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:176:17-58
+222                android:resource="@xml/app_widget_card_info" />
+222-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:177:17-60
+223        </receiver>
+224
+225        <service
+225-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:229:9-238:19
+226            android:name="com.jdots.music.service.MusicService"
+226-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:230:13-64
+227            android:enabled="true"
+227-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:231:13-35
+228            android:exported="true"
+228-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:232:13-36
+229            android:label="@string/app_name" >
+229-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:233:13-45
+230            <intent-filter>
+230-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:235:13-237:29
+231                <action android:name="android.media.browse.MediaBrowserService" />
+231-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:236:17-83
+231-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:236:25-80
+232            </intent-filter>
+233        </service>
+234
+235        <meta-data
+235-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:240:9-242:35
+236            android:name="android.max_aspect"
+236-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:241:13-46
+237            android:value="2.1" />
+237-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:242:13-32
+238        <meta-data
+238-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:244:9-246:36
+239            android:name="com.lge.support.SPLIT_WINDOW"
+239-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:245:13-56
+240            android:value="true" />
+240-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:246:13-33
+241        <meta-data
+241-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:248:9-250:43
+242            android:name="com.jdots.music.glide.RetroMusicGlideModule"
+242-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:249:13-71
+243            android:value="GlideModule" />
+243-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:250:13-40
+244        <meta-data
+244-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:252:9-254:43
+245            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+245-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:253:13-84
+246            android:value="GlideModule" />
+246-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:254:13-40
+247
+248        <provider
+248-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f9b14ee5c55458a1335c419d22f41fe2\jetified-debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
+249            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+249-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f9b14ee5c55458a1335c419d22f41fe2\jetified-debug-db-1.0.6\AndroidManifest.xml:13:13-69
+250            android:authorities="com.jdots.music.debug.DebugDBInitProvider"
+250-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f9b14ee5c55458a1335c419d22f41fe2\jetified-debug-db-1.0.6\AndroidManifest.xml:14:13-71
+251            android:enabled="true"
+251-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f9b14ee5c55458a1335c419d22f41fe2\jetified-debug-db-1.0.6\AndroidManifest.xml:15:13-35
+252            android:exported="false" />
+252-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f9b14ee5c55458a1335c419d22f41fe2\jetified-debug-db-1.0.6\AndroidManifest.xml:16:13-37
+253
+254        <activity
+254-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:15:9-18:68
+255            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+255-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:16:13-81
+256            android:screenOrientation="unspecified"
+256-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:17:13-52
+257            android:theme="@style/Theme.Transparent.ImagePicker" />
+257-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:18:13-65
+258        <activity
+258-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:19:9-22:72
+259            android:name="com.yalantis.ucrop.UCropActivity"
+259-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:20:13-60
+260            android:screenOrientation="portrait"
+260-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:21:13-49
+261            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+261-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:22:13-69
+262
+263        <provider
+263-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:24:9-32:20
+264            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+264-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:25:13-85
+265            android:authorities="com.jdots.music.debug.imagepicker.provider"
+265-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:26:13-72
+266            android:exported="false"
+266-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:27:13-37
+267            android:grantUriPermissions="true" >
+267-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8dccdd6244040c3e7c98094feb9847ad\jetified-imagepicker-1.7.1\AndroidManifest.xml:28:13-47
+268            <meta-data
+268-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:138:13-140:58
+269                android:name="android.support.FILE_PROVIDER_PATHS"
+269-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:139:17-67
+270                android:resource="@xml/image_picker_provider_paths" />
+270-->D:\Applications\Android\Music\app\src\main\AndroidManifest.xml:140:17-55
+271        </provider>
+272
+273        <service
+273-->[androidx.room:room-runtime:2.2.5] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\20a11313e5c911f3b97bd660e76fa8e6\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+274            android:name="androidx.room.MultiInstanceInvalidationService"
+274-->[androidx.room:room-runtime:2.2.5] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\20a11313e5c911f3b97bd660e76fa8e6\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+275            android:directBootAware="true"
+275-->[androidx.room:room-runtime:2.2.5] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\20a11313e5c911f3b97bd660e76fa8e6\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+276            android:exported="false" />
+276-->[androidx.room:room-runtime:2.2.5] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\20a11313e5c911f3b97bd660e76fa8e6\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+277    </application>
+278
+279</manifest>

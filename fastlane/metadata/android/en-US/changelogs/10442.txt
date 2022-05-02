@@ -1,0 +1,2 @@
+- Jazz Music Player
+- Fix crashes

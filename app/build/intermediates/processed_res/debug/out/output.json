@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.jdots.music.debug",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 10503,
+        "versionName": "4.0.010 DEBUG",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.jdots.music.debug",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

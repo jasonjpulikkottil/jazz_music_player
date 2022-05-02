@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/library_graph"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_album"
+        android:name="com.jdots.music.fragments.albums.AlbumsFragment"
+        tools:layout="@layout/fragment_main_activity_recycler_view" />
+
+    <fragment
+        android:id="@+id/action_artist"
+        android:name="com.jdots.music.fragments.artists.ArtistsFragment"
+        tools:layout="@layout/fragment_main_activity_recycler_view" />
+
+    <fragment
+        android:id="@+id/action_song"
+        android:name="com.jdots.music.fragments.songs.SongsFragment"
+        tools:layout="@layout/fragment_main_activity_recycler_view" />
+
+    <fragment
+        android:id="@+id/action_genre"
+        android:name="com.jdots.music.fragments.genres.GenresFragment"
+        tools:layout="@layout/fragment_main_activity_recycler_view" />
+
+    <fragment
+        android:id="@+id/action_playlist"
+        android:name="com.jdots.music.fragments.playlists.PlaylistsFragment"
+        tools:layout="@layout/fragment_main_activity_recycler_view" />
+
+    <fragment
+        android:id="@+id/action_folder"
+        android:name="com.jdots.music.fragments.folder.FoldersFragment"
+        tools:layout="@layout/fragment_folder" />
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.jdots.music.fragments.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_banner_home" />
+
+</navigation>

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.jdots.music",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 2,
+        "versionName": "1.1",
+        "outputFile": "app-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.jdots.music",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}
